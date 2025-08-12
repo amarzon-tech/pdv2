@@ -1,1 +1,0 @@
-PD Tracker App JavaScript content placeholder
