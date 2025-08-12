@@ -3,14 +3,15 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/10.3.0/firebas
 import { getDatabase, ref, set, onValue } from "https://www.gstatic.com/firebasejs/10.3.0/firebase-database.js";
 
 // TODO: Replace with your actual Firebase config
-const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_PROJECT_ID.firebaseapp.com",
-  databaseURL: "https://YOUR_PROJECT_ID.firebaseio.com",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_PROJECT_ID.appspot.com",
-  messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
-  appId: "YOUR_APP_ID"
+constconst firebaseConfig = {
+  apiKey: "AIzaSyADaMItYzclJ5Vq6JNeJdGPCRq6K_Wc3Ds",
+  authDomain: "pd-tracker-709d4.firebaseapp.com",
+  databaseURL: "https://pd-tracker-709d4-default-rtdb.firebaseio.com",
+  projectId: "pd-tracker-709d4",
+  storageBucket: "pd-tracker-709d4.firebasestorage.app",
+  messagingSenderId: "487349243503",
+  appId: "1:487349243503:web:063de036ef5ca96d37079a",
+  measurementId: "G-DGRH9HJL1R"
 };
 
 const app = initializeApp(firebaseConfig);
