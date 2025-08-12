@@ -2,7 +2,6 @@
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.3.0/firebase-app.js";
 import { getDatabase, ref, set, onValue } from "https://www.gstatic.com/firebasejs/10.3.0/firebase-database.js";
 
-// TODO: Replace with your actual Firebase config\
 const firebaseConfig = {
   apiKey: "AIzaSyADaMItYzclJ5Vq6JNeJdGPCRq6K_Wc3Ds",
   authDomain: "pd-tracker-709d4.firebaseapp.com",
